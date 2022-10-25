@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+/*通用类*/
+* {
+ margin: 0;
+ padding: 0;
+}
+body {
+ min-width: 1000px;
+ margin: 0 auto;
+ font-size: 14px;
+ font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Source Han Sans CN, sans-serif;
+ background: #fff;
+ text-align: justify;
+ color: #010000;
+ position: relative;
+}
+h1, h2, h3 {
+ font-weight: 500;
+}
+img {
+ border: none;
+}
+a {
+ cursor: pointer;
+ color: #333;
+ text-decoration: none;
+ outline: none;
+}
+ul {
+ list-style-type: none;
+}
+em {
+ font-style: normal;
+}
+.lt {
+ float: left;
+}
+.rt {
+ float: right;
+}
+div.clear {
+ font: 0px Arial;
+ line-height: 0;
+ height: 0;
+ overflow: hidden;
+ clear: both;
+}
+.clearfix::after {
+ content: "";
+ display: block;
+ clear: both;
+}
+/*wrapin 主体容器宽度*/
+.wrapin {
+ width: 1000px;
+ margin-left: auto;
+ margin-right: auto;
+}
+/*公用CSS 开始*/
+
+/*header 开始*/
+header {
+ background: #cf2212;
+ line-height: 60px;
+ padding: 0 15px;
+}
+header .logo {
+ float: left;
+ font-size: 24px;
+ color: #fff;
+ font-weight: bold;
+ line-height: 60px;
+}
+header .nav {
+ float: right;
+}
+header .nav li {
+ width: 120px;
+ text-align: center;
+ font-size: 16px;
+ display: inline-block;
+}
+header .nav li a {
+ color: #fff;
+}
+.banner {
+ display: block;
+}
+.banner img {
+ display: block;
+ width: 100%;
+ height: 400px;
+}
+.in_com {
+ background: #f4f8ff;
+ padding: 15px;
+ display: block;
+}
+.con_top .pic {
+ width: 300px;
+ float: left;
+}
+.con_top .pic img {
+ width: 100%;
+}
+.con_top .text {
+ float: right;
+ width: 650px;
+ line-height: 28px;
+ color: #333;
+}
+.title {
+ background: #598bd2;
+ line-height: 40px;
+ padding: 0 15px;
+ margin: 20px 0;
+}
+.title h2 {
+ font-size: 20px;
+ color: #fff;
+}
+.text_a {
+    font-size: 20px;
+ line-height: 28px;
+ color: #333;
+}
+.text_a img {
+ margin-left: 15px;
+ width: 100%;
+ height: 100%;
+}
+footer {
+ background: #cf2212;
+ line-height: 60px;
+ padding: 0 15px;
+ text-align: center;
+ font-size: 14px;
+ color: #fff;
+}
+.pic_con {
+ margin: 0 -15px;
+}
+.pic_con li {
+ float: left;
+ width: 33.333%;
+ box-sizing: border-box;
+ padding: 15px;
+}
+.pic_con li img {
+ width: 100%;
+ height: 200px;
+ object-fit: cover;
+}
+.renwu_box li {
+ position: relative;
+ height: 260px;
+ padding-bottom: 15px;
+ border-bottom: 1px dashed #ccc;
+ margin-bottom: 15px;
+}
+.renwu_box li .pic {
+ width: 260px;
+ height: 260px;
+ position: absolute;
+ left: 0;
+ top: 0;
+}
+.renwu_box li .pic img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.renwu_box li .text {
+ margin-left: 280px;
+ font-size: 16px;
+ line-height: 28px;
+ color: #333;
+}
+    </style>
+</head>
+<body>
+    <div style="display: none;">
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=1905186545&auto=1&height=66"></iframe>
+    </div>
+    <div class="wrapin"> 
+      <!--顶部-->
+      <header class="clearfix"> <a href=" " class="logo">生日快乐！！</a>
+        <ul class="nav">
+          <li><a>我的宝贝</a></li>
+          <li><a>生日快乐</a></li>
+          <li><a>爱你呦</a></li>
+        </ul>
+      </header>
+      <div class="banner"> <img src="./img/001.jpg"/> </div>
+      <div class="in_com">
+        <div class="con_top clearfix">
+          <div class="pic"><img src="./img/002.jpg"/></div>
+          <div class="text"> <b>My girlfriend<br>
+            <br>
+            I have a girlfriend she name is Sheng chang cai she is very beautiful  and interesting Today is she birthday I want to wish she a happy
+             birthday we're very good we've had a lot of fights But she never said anything about leaving I like to stay with she.I hope she will always
+              be with me. <br>
+              我的女朋友<br>
+              <br>
+              我有一个女朋友，她的名字是申长彩，她很漂亮，很有趣今天是她的生日，我想祝她生日快乐，我们很好，我们有很多争吵，但她从来没有说过任何关于离开.我喜欢和她在一起的事情。我希望她会永远
+              和我在一起。
+            <br>
+          </div>
+        </div>
+        <div class="title">
+          <h2>我想对你说</h2>
+        </div>
+        <div class="text_a clearfix">此生不负相遇，未来继续同行，欢喜是你，喜欢是你，有你陪伴的日子，即使平凡也觉得浪漫深情不及久伴，厚爱无需多言，感恩在一起的点点滴滴，生日快乐～</div>
+        <div class="title">
+          <h2>女友介绍</h2>
+        </div>
+        <div class="text_a clearfix">今天是你的20岁生日，因为疫情原因我没办法陪在你身边，这是我们在一起后的第三个生日，以后的日子我们会继续走下去<br>
+        
+          <img  src="img/1.jpg"/> </div>
+      </div>
+      <footer>
+        <P>我和我的宝贝</P>
+      </footer>
+    </div>
+    </body>
+</html>
